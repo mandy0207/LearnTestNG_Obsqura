@@ -8,8 +8,8 @@
   <run>
   <include name="Smoke"/>
   </run>
-  
   </groups>
+  
     <classes>
       <class name="WebTesting"/>
       <class name="MobileTesting"/>

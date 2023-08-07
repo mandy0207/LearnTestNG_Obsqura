@@ -1,56 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-07T11:59:09 EDT" name="Suite" finished-at="2023-08-07T11:59:09 EDT" duration-ms="134">
+  <suite started-at="2023-08-07T12:22:45 EDT" name="Suite" finished-at="2023-08-07T12:22:45 EDT" duration-ms="87">
     <groups>
-      <group name="Sanity">
-        <method signature="MobileTesting.FirstMobileTest()[pri:0, instance:MobileTesting@636be97c]" name="FirstMobileTest" class="MobileTesting"/>
-      </group> <!-- Sanity -->
       <group name="Smoke">
-        <method signature="WebTesting.FirstWebTest()[pri:0, instance:WebTesting@47d90b9e]" name="FirstWebTest" class="WebTesting"/>
-        <method signature="MobileTesting.SecondMobileTest()[pri:0, instance:MobileTesting@636be97c]" name="SecondMobileTest" class="MobileTesting"/>
+        <method signature="WebTesting.FirstWebTest()[pri:0, instance:WebTesting@7880cdf3]" name="FirstWebTest" class="WebTesting"/>
+        <method signature="MobileTesting.SecondMobileTest()[pri:0, instance:MobileTesting@41e36e46]" name="SecondMobileTest" class="MobileTesting"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-08-07T11:59:09 EDT" name="WebTestS" finished-at="2023-08-07T11:59:09 EDT" duration-ms="66">
+    <test started-at="2023-08-07T12:22:45 EDT" name="WebTestS" finished-at="2023-08-07T12:22:45 EDT" duration-ms="42">
       <class name="WebTesting">
-        <test-method is-config="true" signature="InvokeBrowser()[pri:0, instance:WebTesting@47d90b9e]" started-at="2023-08-07T11:59:09 EDT" name="InvokeBrowser" finished-at="2023-08-07T11:59:09 EDT" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="InvokeBrowser()[pri:0, instance:WebTesting@7880cdf3]" started-at="2023-08-07T12:22:45 EDT" name="InvokeBrowser" finished-at="2023-08-07T12:22:45 EDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvokeBrowser -->
-        <test-method signature="FirstWebTest()[pri:0, instance:WebTesting@47d90b9e]" started-at="2023-08-07T11:59:09 EDT" name="FirstWebTest" finished-at="2023-08-07T11:59:09 EDT" duration-ms="9" status="PASS">
+        <test-method signature="FirstWebTest()[pri:0, instance:WebTesting@7880cdf3]" started-at="2023-08-07T12:22:45 EDT" name="FirstWebTest" finished-at="2023-08-07T12:22:45 EDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstWebTest -->
-        <test-method signature="SecondWebTest()[pri:1, instance:WebTesting@47d90b9e]" started-at="2023-08-07T11:59:09 EDT" name="SecondWebTest" finished-at="2023-08-07T11:59:09 EDT" duration-ms="2" status="PASS">
+        <test-method signature="SecondWebTest()[pri:1, instance:WebTesting@7880cdf3]" started-at="2023-08-07T12:22:45 EDT" name="SecondWebTest" finished-at="2023-08-07T12:22:45 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondWebTest -->
-        <test-method signature="ThirdWebTest()[pri:2, instance:WebTesting@47d90b9e]" started-at="2023-08-07T11:59:09 EDT" name="ThirdWebTest" finished-at="2023-08-07T11:59:09 EDT" duration-ms="1" status="PASS">
+        <test-method signature="ThirdWebTest()[pri:2, instance:WebTesting@7880cdf3]" started-at="2023-08-07T12:22:45 EDT" name="ThirdWebTest" finished-at="2023-08-07T12:22:45 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ThirdWebTest -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:WebTesting@47d90b9e]" started-at="2023-08-07T11:59:09 EDT" name="CloseBrowser" finished-at="2023-08-07T11:59:09 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:WebTesting@7880cdf3]" started-at="2023-08-07T12:22:45 EDT" name="CloseBrowser" finished-at="2023-08-07T12:22:45 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="AfterWebTest()[pri:0, instance:WebTesting@47d90b9e]" started-at="2023-08-07T11:59:09 EDT" name="AfterWebTest" finished-at="2023-08-07T11:59:09 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="AfterWebTest()[pri:0, instance:WebTesting@7880cdf3]" started-at="2023-08-07T12:22:45 EDT" name="AfterWebTest" finished-at="2023-08-07T12:22:45 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterWebTest -->
       </class> <!-- WebTesting -->
     </test> <!-- WebTestS -->
-    <test started-at="2023-08-07T11:59:09 EDT" name="MobileTest" finished-at="2023-08-07T11:59:09 EDT" duration-ms="6">
+    <test started-at="2023-08-07T12:22:45 EDT" name="MobileTest" finished-at="2023-08-07T12:22:45 EDT" duration-ms="6">
       <class name="MobileTesting">
-        <test-method signature="FirstMobileTest()[pri:0, instance:MobileTesting@636be97c]" started-at="2023-08-07T11:59:09 EDT" name="FirstMobileTest" finished-at="2023-08-07T11:59:09 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FirstMobileTest -->
-        <test-method is-config="true" signature="InvokeBrowser()[pri:0, instance:MobileTesting@636be97c]" started-at="2023-08-07T11:59:09 EDT" name="InvokeBrowser" finished-at="2023-08-07T11:59:09 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvokeBrowser -->
-        <test-method signature="SecondMobileTest()[pri:0, instance:MobileTesting@636be97c]" started-at="2023-08-07T11:59:09 EDT" name="SecondMobileTest" finished-at="2023-08-07T11:59:09 EDT" duration-ms="0" status="PASS">
+        <test-method signature="SecondMobileTest()[pri:0, instance:MobileTesting@41e36e46]" started-at="2023-08-07T12:22:45 EDT" name="SecondMobileTest" finished-at="2023-08-07T12:22:45 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondMobileTest -->
