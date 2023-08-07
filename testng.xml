@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+  <test  name="WebTestS">
+    <classes>
+      <class name="WebTesting"/>
+    </classes>
+  </test> 
+  
+  
+  
+  <test  name="MobileTest">
+    <classes>
+      <class name="MobileTesting"/>
+       <class name="AndroidTesting"/>
+        <class name="IosTesting"/>
+    </classes>
+  </test> 
+  
+  
+</suite> 
