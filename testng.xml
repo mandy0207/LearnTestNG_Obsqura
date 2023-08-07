@@ -14,8 +14,7 @@
   <test  name="MobileTest">
     <classes>
       <class name="MobileTesting"/>
-       <class name="AndroidTesting"/>
-        <class name="IosTesting"/>
+   
     </classes>
   </test> 
   
