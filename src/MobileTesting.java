@@ -1,14 +1,25 @@
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+
 
 public class MobileTesting {
 
-	
-	@Test (groups= {"Sanity"})
-	public void FirstMobileTest() {
+
+	@Test
+	@Parameters({"Username", "Password"})
+	public void FirstMobileTest(String username, String password) {
 		System.out.println("I am in First Mobile Test");
+		System.out.println(username);
+		System.out.println(password);
+		
 	}
 	
 	@BeforeClass

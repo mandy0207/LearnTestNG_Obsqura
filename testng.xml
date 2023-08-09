@@ -3,7 +3,11 @@
 
 <suite name="Suite">
 
+<parameter name="Username" value="obsqura@gmail.com"></parameter>
+<parameter name="Password" value="mypassword"></parameter>
+
   <test  name="WebTestS">
+
     <classes>
       <class name="WebTesting"/>
     </classes>

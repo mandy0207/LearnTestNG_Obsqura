@@ -4,6 +4,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class WebTesting {
@@ -19,6 +20,8 @@ public class WebTesting {
 	 * 7) BeforeMethod will execute before every testcase present in class
 	 * 8) AfterMethod will execute after every testcase present in a class
 	 * 9) If we have to execute particular testcases that belongs to smoke, sanity etc or any group we use the concept of grouping
+	 * 10) For driving data from testng.xml we have to use @parameters annotaion. We can drive have data available at suite level or test leve
+	 *     suite level data would be available to all the classes or test cases but not same in test level
 	 */
 
 	@Test(groups= {"Smoke"})
@@ -27,10 +30,12 @@ public class WebTesting {
 	}
 	
 	
-	
+	@Parameters({"Username", "Password"})
 	@Test(priority=1)
-	public void SecondWebTest() {
+	public void SecondWebTest(String username, String password) {
 		System.out.println("I am in Second Second Web Test");
+		System.out.println(username);
+		System.out.println(password);
 	}
 	
 	@Test(priority=2)
