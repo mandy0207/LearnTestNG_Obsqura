@@ -9,7 +9,10 @@ public class SoftAssertions {
 	public void LearnSoftAssertions() {
 		
 		SoftAssert softAssert = new SoftAssert();
-		
+		/**
+		 * Soft Assert will record all the assertion failures and will fail at the end of program or test case
+		 * We have to use softAssert.assertAll() in order to report all assertions
+		 */
 	
 		String expectedfirstName = "Ingrid";
 		String expectedlastName= "Rodrigues";
@@ -24,11 +27,7 @@ public class SoftAssertions {
 		System.out.println("I am second statement");
 
 	    softAssert.assertAll();
-		
-
-		
-		
-
+	
 
 	}
 }

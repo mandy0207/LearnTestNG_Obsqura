@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-09T11:38:03 EDT" name="Default suite" finished-at="2023-08-09T11:38:03 EDT" duration-ms="66">
+  <suite started-at="2023-08-09T11:46:17 EDT" name="Default suite" finished-at="2023-08-09T11:46:17 EDT" duration-ms="97">
     <groups>
     </groups>
-    <test started-at="2023-08-09T11:38:03 EDT" name="Default test" finished-at="2023-08-09T11:38:03 EDT" duration-ms="66">
+    <test started-at="2023-08-09T11:46:17 EDT" name="Default test" finished-at="2023-08-09T11:46:17 EDT" duration-ms="97">
       <class name="SoftAssertions">
-        <test-method signature="LearnSoftAssertions()[pri:0, instance:SoftAssertions@63a65a25]" started-at="2023-08-09T11:38:03 EDT" name="LearnSoftAssertions" finished-at="2023-08-09T11:38:03 EDT" duration-ms="24" status="FAIL">
+        <test-method signature="LearnSoftAssertions()[pri:0, instance:SoftAssertions@63a65a25]" started-at="2023-08-09T11:46:17 EDT" name="LearnSoftAssertions" finished-at="2023-08-09T11:46:17 EDT" duration-ms="26" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -20,7 +20,7 @@ expected [Ingrid] but found [mandy],
 expected [Rodrigues] but found [Taak]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at SoftAssertions.LearnSoftAssertions(SoftAssertions.java:26)
+at SoftAssertions.LearnSoftAssertions(SoftAssertions.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

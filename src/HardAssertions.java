@@ -22,8 +22,6 @@ public class HardAssertions {
 		Assert.assertEquals("Rodrigues", expectedlastName);
 		System.out.println("I am second statement");
 		
-	
-		
 	    Assert.assertTrue(true);
         System.out.println("I am  third statement");
 		
